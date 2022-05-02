@@ -4,6 +4,9 @@ resources:
 - todo-secret-sealed.json
 - ../../base
 images:
+- name: melmanmankiewicz/todo_frontend
+  newName: melmanmankiewicz/todo_frontend
+  newTag: 2022-05-02_09-27-24
 - name: todo_frontend
   newName: melmanmankiewicz/todo_frontend
   newTag: 2022-05-02_09-20-11
