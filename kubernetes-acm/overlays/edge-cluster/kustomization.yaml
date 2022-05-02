@@ -4,5 +4,9 @@ bases:
   - ../../base
 resources:
   - todo-secret-sealed.json
-patchesStrategicMerge:
-  - todo_frontend.yaml
+images:
+  - name: todo_frontend
+    newName: melmanmankiewicz/todo_frontend:red1.0
+    newTag: 2022-04-25_10-39-35
+#patchesStrategicMerge:
+#  - todo_frontend.yaml
