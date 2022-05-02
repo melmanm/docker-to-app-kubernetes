@@ -5,7 +5,7 @@ bases:
 resources:
   - todo-secret-sealed.json
 images:
-  - name: todo_frontend
+  - name: melmanmankiewicz/todo_frontend
     newName: melmanmankiewicz/todo_frontend
     newTag: red1.0
 #patchesStrategicMerge:
