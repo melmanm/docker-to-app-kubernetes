@@ -8,4 +8,4 @@ resources:
 images:
 - name: melmanmankiewicz/todo_frontend
   newName: melmanmankiewicz/todo_frontend
-  newTag: 2022-05-05_09-28-38
+  newTag: 2022-05-05_10-24-57
