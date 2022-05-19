@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - todo-secret-sealed.json
   - ../../base
-#images:
-#  - name: melmanmankiewicz/todo_frontend
-#    newName: melmanmankiewicz/todo_frontend
-#    newTag: with_image
+images:
+  - name: melmanmankiewicz/todo_frontend
+    newName: melmanmankiewicz/todo_frontend
+    newTag: with_image
